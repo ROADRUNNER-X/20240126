@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Encabezados";
+    src: url(../fonts/PlayfairDisplay-SemiBold.woff);
+}
+@font-face{
+    font-family: "Textos";
+    src: url(../fonts/Lato-Regular.woff);
+    font-weight: 400px;
+}
+body{
+    font-family: "Textos";
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Encabezados";
+}
